@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4381000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 592200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.beforeFirstMethod()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "ActiTime Users Test Scenario",
+        "description": "",
+        "id": "actitime-taggedhooks-check-on-userpage;actitime-users-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 694500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 706000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.afterFirstMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 591650300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already available on UsersPage page",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.user_is_already_available_on_UsersPage_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 929500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of the login page is UsersPAge",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.title_of_the_login_page_is_UsersPAge()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User fills the user form",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.user_fills_the_user_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 955900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User creted",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.user_creted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3721300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 787500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.beforesecondMethod()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "ActiTime search user on Users Test Scenario",
+        "description": "",
+        "id": "actitime-taggedhooks-check-on-userpage;actitime-search-user-on-users-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 605000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 608200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.afterScondMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 664200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is already available in UsersPage page",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.user_is_already_available_in_UsersPage_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3918000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User search the name in the search context",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.user_search_the_name_in_the_search_context()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 693200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User found",
+            "match": {
+              "location": "ActitimeTaggedHooksStepDefnition.user_found()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@sceond"
+          }
+        ]
+      }
+    ],
+    "name": "Actitime TaggedHooks check on UserPage",
+    "description": "",
+    "id": "actitime-taggedhooks-check-on-userpage",
+    "keyword": "Feature",
+    "uri": "E:/Work/javaworkspace/ActiTimeBDDCucumber/src/main/java/com/qa/actitime/FeaturesFile/taggedhooks.feature"
+  }
+]

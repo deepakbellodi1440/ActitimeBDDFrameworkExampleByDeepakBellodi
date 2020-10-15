@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.611168">
+<testcase classname="Actitime TaggedHooks check on UserPage" name="ActiTime Users Test Scenario" time="0.600171">
+<system-out><![CDATA[Given User is already available on UsersPage page...........................passed
+When Title of the login page is UsersPAge...................................passed
+Then User fills the user form...............................................passed
+Then User creted............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Actitime TaggedHooks check on UserPage" name="ActiTime search user on Users Test Scenario" time="0.010997">
+<system-out><![CDATA[Given User is already available in UsersPage page...........................passed
+Then User search the name in the search context.............................passed
+Then User found.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
